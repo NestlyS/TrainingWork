@@ -1,0 +1,296 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+h1, h2, h3,h4,h5,h6{
+  font-weight: 900;
+}
+
+ul li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 65px;
+  letter-spacing: 0.23em;
+  border-top: 3px solid #9ab4be;
+  border-bottom: 3px solid #9ab4be;
+  width: 75%;
+  padding: 13px;
+  padding-right: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3{
+  padding-top: 40px;
+  color: #737373;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.container{
+  width:  1170px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #30697d url('../img/bg2.png') center top / cover;
+    color: #fff;
+    padding-bottom: 426px;
+    padding-top: 45px;
+    z-index: 2;
+}
+
+.mail{
+  text-decoration: none;
+  float: right;
+}
+
+.mail:visited{
+  color: #fff;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer{
+  margin-top: 293px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.offer p{
+  font-size: 25px;
+  color: #d0d9dd;
+}
+
+.man{
+
+  background:  url('../img/man.jpg') no-repeat center top;
+  height: 583px;
+  width: 431px;
+}
+
+.text{
+ 
+  width: 670px;
+
+}
+.text p{
+  color: #7f7f7f;
+  line-height: 1.66em;
+  margin-top: 33px;
+}
+
+.btn{
+  display: block;
+  background: #ff2b4a;
+  color: #fff;
+  width: 202px;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 60px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.links li:nth-child(1){
+    background: #1da1f2;
+}
+
+.links li:nth-child(2){
+  background: #24292e;
+}
+
+.links li:nth-child(3){
+  background: #4a76a8;
+}
+
+.links li a {
+  color:#d0d9dd;
+  text-decoration: none;
+}
+.btn-link{
+  margin-top: 0;
+}
+
+.about .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about{
+  padding-top: 114px;
+}
+
+.heading{
+  margin-top: 112px;
+  text-align: center;
+}
+
+.heading p {
+  color: #6f6f6f;
+  margin-top: 25px;
+}
+
+.process {
+  background: #f6f6f6;
+}
+
+.steps{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.steps li {
+  width: 270px;
+  height: 270px;
+  background: #10c6fc;
+  color: #fff;
+  
+}
+
+.steps li div{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.steps li:nth-child(2){
+  background:#835aeb;
+}
+
+.steps li:nth-child(3){
+  background:#002453;
+}
+
+.steps li:nth-child(4){
+  background:#ff2b4a;
+}
+
+.linkUp {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  position: fixed;
+  background: #f2f2f22f;
+  color: #494949c2;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  border-radius: 0.5em;
+  border: #494949d3 solid 2px;
+  z-index: auto;
+}
+
+footer{
+  background: #222222;
+  color: #9c9c9c;
+  font-size: 12px;
+  padding-top: 56px;
+  margin-top: 116px;
+  padding-bottom: 51px;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.socials a{
+  color: #9c9c9c;
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+.socials li:last-child a{
+  margin-right: 0px;
+}
+
+.socials a:hover{
+  color: #ff2b4a;
+}
+
+.footer-text{
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .container{
+    width: 768px;
+  }
+
+  .man{
+    width:900px;
+    margin-top: 25%;
+  }
+
+  .about{
+    padding-top: 74px;
+    padding-bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    width: auto;
+    padding: 10px;
+    min-width: 290px;
+  }
+  .man{
+    display: none;
+  }
+  .btn{
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+  .links li{
+    width:30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1{
+    width:auto;
+  }
+}
+
+@media screen and (max-width: 510px){
+  .container{
+    width:auto;
+  }
+  
+  .steps{
+    flex-direction: column;
+  }
+
+  .steps li{
+    margin: 0 auto 30px;
+  }
+}
+
+@media screen and(max-width: 400px){
+  h1{
+    font-size: 42px;
+  }
+}
