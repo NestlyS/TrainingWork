@@ -45,7 +45,7 @@ h3{
 }
 
 .header{
-  background: #30697d url('../img/bg2.png') center top / cover;
+  background: #30697d url('../img/bg.jpg') center top / cover;
     color: #fff;
     padding-bottom: 426px;
     padding-top: 45px;
@@ -55,6 +55,7 @@ h3{
 .mail{
   text-decoration: none;
   float: right;
+  color: #ffffff;s
 }
 
 .mail:visited{
